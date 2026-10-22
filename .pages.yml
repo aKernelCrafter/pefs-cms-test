@@ -7,6 +7,15 @@ content:
     format: yaml
     operations:
       delete: false
+    actions:
+      - name: publish-site
+        label: Publish site
+        workflow: deploy-pages.yml
+        cancelable: false
+        confirm:
+          title: Publish site?
+          message: This publishes your saved changes to the live website. It takes about a minute.
+          button: Publish
     fields:
       - name: hero_title
         label: Hero title
