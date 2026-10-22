@@ -1,0 +1,67 @@
+media: media
+content:
+  - name: site
+    label: PEFS Website Content
+    type: file
+    path: content/site.yml
+    format: yaml
+    operations:
+      delete: false
+    fields:
+      - name: hero_title
+        label: Hero title
+        type: string
+      - name: hero_text
+        label: Hero text
+        type: text
+      - name: announcement
+        label: Announcement banner
+        type: text
+      - name: about
+        label: About PEFS
+        type: rich-text
+        options:
+          format: markdown
+          media: false
+      - name: memberships
+        label: Membership options
+        type: object
+        list:
+          collapsible:
+            collapsed: true
+            summary: "{name}"
+        fields:
+          - name: name
+            label: Option name
+            type: string
+          - name: price
+            label: Price
+            type: string
+          - name: details
+            label: Details
+            type: text
+      - name: board_year
+        label: Board term (e.g. 2024/2025)
+        type: string
+      - name: board
+        label: Board of Directors
+        type: object
+        list:
+          collapsible:
+            collapsed: true
+            summary: "{name} - {role}"
+        fields:
+          - name: name
+            label: Name
+            type: string
+          - name: role
+            label: Role
+            type: select
+            options:
+              values: [Chair, Vice-Chair, Treasurer, Secretary, Director]
+      - name: contact_email
+        label: General contact email
+        type: string
+      - name: board_email
+        label: Board contact email
+        type: string
