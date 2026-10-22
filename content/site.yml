@@ -1,0 +1,32 @@
+hero_title: "Stronger. Together."
+hero_text: "PEFS promotes fitness and wellness activities for BC provincial employees through education, communication, and programs."
+announcement: "New! Provincial employees can now choose Membership or Pay Per Use options. See Membership below or visit our booking site."
+about: |
+  The **Canadian Physical Activity Guidelines** state that adults aged 18-64 should accumulate at least **150 minutes of moderate- to vigorous-intensity aerobic physical activity per week** to start looking and feeling healthier.
+
+  PEFS is here to help you get there. We offer a variety of classes and fitness centre options that fit into your lunch hour or right after work.
+
+  The Provincial Employees (Victoria) Fitness Society is a **non-profit organization** established under the Society Act in **April 1997**, managed by a volunteer Board of Directors.
+memberships:
+  - name: "Full Membership - Facilities & Classes"
+    price: "$19.98 biweekly plus taxes"
+    details: "Access to any/all PEFS facilities and unlimited access to scheduled studio classes at 1515 Blanshard."
+  - name: "Equipment-Use - 4000 Seymour"
+    price: "$15.98 biweekly plus taxes"
+    details: "Access to 4000 Seymour for equipment use only (classes not included)."
+board_year: "2024/2025"
+board:
+  - name: "Darcy Dragseth"
+    role: "Chair"
+  - name: "Charles Middleton"
+    role: "Treasurer"
+  - name: "Susanna Francis"
+    role: "Secretary"
+  - name: "Gary Merrick"
+    role: "Director"
+  - name: "Wanda Kelley"
+    role: "Director"
+  - name: "Margaret Case"
+    role: "Director"
+contact_email: "fitnesscentre@gov.bc.ca"
+board_email: "darcy.dragseth@gov.bc.ca"
